@@ -1,4 +1,22 @@
 #!/usr/bin/env python
+
+# Here are a 'formula' to write and to understand decorators
+# and wrapper funcitons
+# (obtained from: https://realpython.com/primer-on-python-decorators/)
+#
+# import functools
+#
+#def decorator(func):
+#    @functools.wraps(func)
+#    def wrapper_decorator(*args, **kwargs):
+#        # Do something before
+#        value = func(*args, **kwargs)
+#        # Do something after
+#        return value
+#    return wrapper_decorator
+
+
+
 import os
 import time
 from flask import Flask, abort, request, jsonify, g, url_for
